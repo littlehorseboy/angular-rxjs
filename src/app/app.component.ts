@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import '../assets/from';
+import '../assets/interval';
 
 @Component({
   selector: 'app-root',
