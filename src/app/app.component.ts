@@ -1,7 +1,7 @@
 import { Component, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 import { fromEvent } from 'rxjs';
 
-import '../assets/filter';
+import '../assets/catchError';
 
 @Component({
   selector: 'app-root',

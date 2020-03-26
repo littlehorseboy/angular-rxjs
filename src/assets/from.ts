@@ -5,7 +5,7 @@ const data = from(new Promise((resolve, reject) => {
     try {
       // throw Error('haha');
       resolve('haha');
-    } catch(e) {
+    } catch (e) {
       reject(e);
     }
   }, 2000);
