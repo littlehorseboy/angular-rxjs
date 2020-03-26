@@ -1,6 +1,7 @@
 import { Component, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
-import '../assets/map';
 import { fromEvent } from 'rxjs';
+
+import '../assets/filter';
 
 @Component({
   selector: 'app-root',
