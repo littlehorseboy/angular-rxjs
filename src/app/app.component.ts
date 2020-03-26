@@ -1,5 +1,5 @@
 import { Component, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
-import '../assets/interval';
+import '../assets/map';
 import { fromEvent } from 'rxjs';
 
 @Component({
