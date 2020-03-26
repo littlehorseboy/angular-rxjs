@@ -1,5 +1,5 @@
 import { Observable, of } from 'rxjs';
-import { map, catchError } from 'rxjs/operators';
+import { map, catchError, retry } from 'rxjs/operators';
 
 const data = new Observable((observer) => {
   observer.next('one');
@@ -8,6 +8,7 @@ const data = new Observable((observer) => {
 
 data
   .pipe(
+    retry(3),
     map((value) => {
       if (!value) {
         throw new Error('Value expected!');
